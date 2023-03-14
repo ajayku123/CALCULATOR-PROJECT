@@ -1,0 +1,110 @@
+body {
+  background-color: #bd7e7e;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  margin-bottom: -152px;
+  margin-top: 85px;
+  font-family: sans-serif;
+  color: yellow;
+  font-size: xxx-large;
+  text-transform: capitalize;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+fieldset {
+  width: 295px;
+  padding: 8px 8px 20px 8px;
+  background-color: #9deac0;
+  text-align: center;
+  border-radius: 4px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #c1c1c1;
+  border-left: 2px solid #c1c1c1;
+  box-shadow: -3px 3px 7px rgb(0 0 0 / 60%),
+    inset -100px 0px 100px rgb(255 255 255 / 50%);
+}
+#display {
+  width: 270px;
+  font-size: 26px;
+  text-align: center;
+  background-color: #498b80;
+  float: left;
+}
+/* answer hover effect */
+#display:hover {
+  width: 270px;
+  font-size: 26px;
+  text-align: center;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+  background-color: #f1faeb;
+}
+
+input {
+  outline: 0;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  border: 0;
+  color: #495069;
+  background-color: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.mathButtons {
+  background-color: #f1ff92;
+  position: relative;
+}
+
+#clearButton {
+  float: left;
+  position: relative;
+  display: block;
+  background-color: #e91328;
+  margin-bottom: 15px;
+}
+
+input:hover {
+  border: 0 solid #000;
+  color: #495069;
+  background-color: #8ffaa1;
+  border-radius: 4px;
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px #088327;
+}
+/* hover */
+.mathButtons:hover {
+  background-color: #e7f56b;
+  box-shadow: 0 4px #b7c259;
+}
+/* hover */
+#clearButton:hover {
+  float: left;
+  display: block;
+  background-color: #f297a0;
+  margin-bottom: 15px;
+  box-shadow: 0 4px #cc7f86;
+}
+p {
+  display: block;
+  text-align: right;
+  margin-top: -25px;
+  color: white;
+}
